@@ -9,7 +9,7 @@ fizzbuzz n
     | n `mod` 15 == 0 = "FizzBuzz!"
     | n `mod` 5 == 0 = "Fizz!"
     | n `mod` 3 == 0 = "Buzz!"
-    | otherwise = numeros
+    | otherwise = numeros n
 {-
 Funcion numeros:
 transforma el numero ingresado, en un string del numero en ingles
